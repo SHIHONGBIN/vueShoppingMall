@@ -1,6 +1,6 @@
 <template>
   <div class="shopping-mall">
-    sdsadsad
+    sdsadsad555566666
   </div>
 </template>
 
