@@ -16,6 +16,9 @@ Vue.config.productionTip = false
 window.onresize = setHtmlFontSize;
 function setHtmlFontSize(){
   var docEl = document.documentElement||document.body;
+  if(docEl >= 750){
+    docEl = 750
+  }
   var rem = docEl.clientWidth / 10;
   docEl.style.fontSize = rem + 'px';
 };
