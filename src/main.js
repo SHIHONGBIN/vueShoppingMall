@@ -5,9 +5,10 @@ import App from './App'
 import router from './router'
 
 //利用babelrc 里面设置 按需加载vant模块，需要什么加载什么
-import { Checkbox, CheckboxGroup, Button } from 'vant';
+import { Checkbox, CheckboxGroup, Button, Row, Col,Swipe, SwipeItem, lazyload } from 'vant';
 //使用模块
-Vue.use(Button).use(Checkbox).use(CheckboxGroup);
+Vue.use(Button).use(Checkbox).use(CheckboxGroup).use(Row).use(Col).use(Swipe).use(SwipeItem)
+.use(lazyload);
 
 
 Vue.config.productionTip = false
